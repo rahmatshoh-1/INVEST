@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Investment Website</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero__content container">
+        <nav class="header__nav">
+          <a href="#" class="header__logo">INVEST</a>
+
+          <!-- Бургер-меню -->
+          <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="header__nav-list" id="nav-list">
+            <li class="header__nav-item">
+              <a href="#main" class="header__nav-link">Main</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#plans" class="header__nav-link">Investment Plans</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#contact" class="header__nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <h2 id="main" class="hero__title">
+          Invest in the Future –<br />
+          Smart Solutions <br />for Stable Income
+        </h2>
+        <p class="hero__description">
+          Secure investments with high returns and minimal risks.
+        </p>
+        <ul class="hero__list">
+          <li class="hero__list-item">
+            &#10004; Earnings up to <strong>$10,000</strong> per month
+          </li>
+          <li class="hero__list-item">
+            &#10004; <strong>30%</strong> annual return on investment
+          </li>
+          <li class="hero__list-item">&#10004; Guaranteed fund protection</li>
+        </ul>
+        <a href="#" class="hero__cta">Invest Now</a>
+      </div>
+      <div class="hero__image">
+        <img
+          src="images/hero.png"
+          alt="Investment Building"
+          class="hero__img"
+        />
+      </div>
+    </section>
+    <section id="plans" class="plans">
+      <div class="container plans__container">
+        <div class="plans__grid">
+          <!-- Левая картинка -->
+          <div class="plans__item plans__image">
+            <img src="images/hero.png" alt="Investment Building" />
+          </div>
+
+          <!-- Центральный контент -->
+          <div class="plans__item plans__content">
+            <ul class="plans__list">
+              <li class="plans__list-item">
+                <span class="icon">
+                  <img src="./images/check.svg" alt="" />
+                </span>
+                Explore flexible investment plans tailored to your financial goals.
+              </li>
+              <li class="plans__list-item">
+                <span class="icon"
+                  ><img src="./images/check.svg" alt=""
+                /></span>
+                Short-term plans with quick returns and minimal risk exposure.
+              </li>
+              <li class="plans__list-item">
+                <span class="icon">
+                  <img src="./images/check.svg" alt="" />
+                </span>
+                Mid-term investments offering balanced growth and stability.
+              </li>
+              <li class="plans__list-item">
+                <span class="icon">
+                  <img src="./images/check.svg" alt="" />
+                </span>
+                Long-term strategies for maximizing returns and building wealth.
+              </li>
+            </ul>
+            <button class="plans__button">ORDER</button>
+          </div>
+
+          <!-- Правая картинка -->
+          <div class="plans__item plans__image">
+            <img src="images/hero.png" alt="Investment Building" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact__section">
+      <div class="container contact__container">
+        <div class="contact__content">
+          <form class="contact__form">
+            <h2 class="contact__title">Contact Us</h2>
+            <input
+              type="text"
+              class="contact__input"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              class="contact__input"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <label>
+              <input type="checkbox" name="" id="" />
+              I accept Privacy policy
+            </label>
+
+            <button type="submit" class="contact__button">Send Message</button>
+          </form>
+          <div class="contact__image">
+            <img src="./images/managerForm.png" alt="Manager Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__text">&copy; 2025 Invest. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
